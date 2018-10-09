@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Config	../fetch_papers.py	/^from utils import Config, safe_pickle_dump$/;"	kind:namespace	line:15
+Config	../utils.py	/^class Config(object):$/;"	kind:class	line:10
+_tempfile	../utils.py	/^def _tempfile(*args, **kws):$/;"	kind:function	line:34
+argparse	../fetch_paper.py	/^import argparse$/;"	kind:namespace	line:1
+argparse	../fetch_papers.py	/^import argparse$/;"	kind:namespace	line:11
+args	../fetch_paper.py	/^    args = parser.parse_args()$/;"	kind:variable	line:49
+args	../fetch_papers.py	/^  args = parser.parse_args()$/;"	kind:variable	line:58
+b1	../fetch_paper.py	/^    b1 = pickle.dumps(db, fix_imports=-1)$/;"	kind:variable	line:67
+banned_path	../utils.py	/^    banned_path = 'banned.txt' # for twitter users who are banned$/;"	kind:variable	line:28
+base_url	../fetch_paper.py	/^    base_url = 'http:\/\/export.arxiv.org\/api\/query?' # base api query url$/;"	kind:variable	line:51
+base_url	../fetch_papers.py	/^  base_url = 'http:\/\/export.arxiv.org\/api\/query?' # base api query url$/;"	kind:variable	line:61
+beg_for_hosting_money	../utils.py	/^    beg_for_hosting_money = 1 # do we beg the active users randomly for money? 0 = no.$/;"	kind:variable	line:27
+contextmanager	../utils.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:1
+database_path	../utils.py	/^    database_path = 'as.db'$/;"	kind:variable	line:24
+db	../fetch_paper.py	/^    db={}$/;"	kind:variable	line:58
+db	../fetch_papers.py	/^    db = pickle.load(open(Config.db_path, 'rb'))$/;"	kind:variable	line:66
+db	../fetch_papers.py	/^    db = {}$/;"	kind:variable	line:71
+db_path	../utils.py	/^    db_path = 'db.p'$/;"	kind:variable	line:12
+db_serve_path	../utils.py	/^    db_serve_path = 'db2.p' # an enriched db.p with various preprocessing info$/;"	kind:variable	line:23
+default	../fetch_paper.py	/^                        default='cat:cs.CV+OR+cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.NE+OR+cat:stat.ML',$/;"	kind:variable	line:42
+default	../fetch_papers.py	/^                      default='cat:cs.CV+OR+cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.NE+OR+cat:stat.ML',$/;"	kind:variable	line:51
+encode_feedparser_dict	../fetch_paper.py	/^def encode_feedparser_dict(d):$/;"	kind:function	line:19
+encode_feedparser_dict	../fetch_papers.py	/^def encode_feedparser_dict(d):$/;"	kind:function	line:17
+f	../fetch_paper.py	/^    f = open('w.txt', 'wb')$/;"	kind:variable	line:66
+feedparser	../fetch_paper.py	/^import feedparser$/;"	kind:namespace	line:4
+feedparser	../fetch_papers.py	/^import feedparser$/;"	kind:namespace	line:13
+fetch_paper.py	../fetch_paper.py	1;"	kind:file	line:1
+fetch_papers.py	../fetch_papers.py	1;"	kind:file	line:1
+help	../fetch_paper.py	/^                        help='query used for arxiv API. See http:\/\/arxiv.org\/help\/api\/user-manual#detailed_examples')$/;"	kind:variable	line:43
+help	../fetch_papers.py	/^                      help='query used for arxiv API. See http:\/\/arxiv.org\/help\/api\/user-manual#detailed_examples')$/;"	kind:variable	line:52
+isvalidid	../utils.py	/^def isvalidid(pid):$/;"	kind:function	line:100
+j	../fetch_papers.py	/^      j = encode_feedparser_dict(e)$/;"	kind:variable	line:89
+meta_path	../utils.py	/^    meta_path = 'tfidf_meta.p'$/;"	kind:variable	line:19
+num_added	../fetch_papers.py	/^    num_added = 0$/;"	kind:variable	line:85
+num_added_total	../fetch_papers.py	/^  num_added_total = 0$/;"	kind:variable	line:76
+num_skipped	../fetch_papers.py	/^    num_skipped = 0$/;"	kind:variable	line:86
+open_atomic	../utils.py	/^def open_atomic(filepath, *args, **kwargs):$/;"	kind:function	line:61
+os	../fetch_papers.py	/^import os$/;"	kind:namespace	line:7
+os	../utils.py	/^import os$/;"	kind:namespace	line:3
+parse	../fetch_paper.py	/^    parse = feedparser.parse(resp)$/;"	kind:variable	line:59
+parse	../fetch_papers.py	/^    parse = feedparser.parse(response)$/;"	kind:variable	line:84
+parse_arxiv_url	../fetch_paper.py	/^def parse_arxiv_url(url):$/;"	kind:function	line:8
+parse_arxiv_url	../fetch_papers.py	/^def parse_arxiv_url(url):$/;"	kind:function	line:35
+parser	../fetch_paper.py	/^    parser = argparse.ArgumentParser()$/;"	kind:variable	line:40
+parser	../fetch_papers.py	/^  parser = argparse.ArgumentParser()$/;"	kind:variable	line:49
+pdf_dir	../utils.py	/^    pdf_dir = os.path.join('data', 'pdf')$/;"	kind:variable	line:14
+pickle	../fetch_paper.py	/^import pickle$/;"	kind:namespace	line:2
+pickle	../fetch_papers.py	/^import pickle$/;"	kind:namespace	line:9
+pickle	../utils.py	/^import pickle$/;"	kind:namespace	line:5
+random	../fetch_papers.py	/^import random$/;"	kind:namespace	line:10
+re	../utils.py	/^import re$/;"	kind:namespace	line:4
+request	../fetch_paper.py	/^import urllib.request$/;"	kind:namespace	line:3
+request	../fetch_papers.py	/^import urllib.request$/;"	kind:namespace	line:12
+resp	../fetch_paper.py	/^      resp = url.read()$/;"	kind:variable	line:56
+response	../fetch_papers.py	/^      response = url.read()$/;"	kind:variable	line:83
+safe_pickle_dump	../fetch_papers.py	/^from utils import Config, safe_pickle_dump$/;"	kind:namespace	line:15
+safe_pickle_dump	../utils.py	/^def safe_pickle_dump(obj, fname):$/;"	kind:function	line:86
+serve_cache_path	../utils.py	/^    serve_cache_path = 'serve_cache.p'$/;"	kind:variable	line:25
+sim_path	../utils.py	/^    sim_path = 'sim_dict.p'$/;"	kind:variable	line:20
+strip_version	../utils.py	/^def strip_version(idstr):$/;"	kind:function	line:94
+tempfile	../utils.py	/^import tempfile$/;"	kind:namespace	line:6
+tfidf_path	../utils.py	/^    tfidf_path = 'tfidf.p'$/;"	kind:variable	line:18
+thumbs_dir	../utils.py	/^    thumbs_dir = os.path.join('static', 'thumbs')$/;"	kind:variable	line:16
+time	../fetch_papers.py	/^import time$/;"	kind:namespace	line:8
+tmp_dir	../utils.py	/^    tmp_dir = 'tmp'$/;"	kind:variable	line:29
+txt_dir	../utils.py	/^    txt_dir = os.path.join('data', 'txt')$/;"	kind:variable	line:15
+urllib	../fetch_paper.py	/^import urllib.request$/;"	kind:namespace	line:3
+urllib	../fetch_papers.py	/^import urllib.request$/;"	kind:namespace	line:12
+user_sim_path	../utils.py	/^    user_sim_path = 'user_sim.p'$/;"	kind:variable	line:21
+utils.py	../utils.py	1;"	kind:file	line:1
