@@ -9,10 +9,10 @@ import tempfile
 # -----------------------------------------------------------------------------
 class Config(object):
     # main paper information repo file
-    db_path = 'db.p'
+    db_path = os.path.join('../../data', 'db.p')
     # intermediate processing folders
-    pdf_dir = os.path.join('data', 'pdf')
-    txt_dir = os.path.join('data', 'txt')
+    pdf_dir = os.path.join('../../data', 'pdf')
+    txt_dir = os.path.join('../../data', 'txt')
     thumbs_dir = os.path.join('static', 'thumbs')
     # intermediate pickles
     tfidf_path = 'tfidf.p'
